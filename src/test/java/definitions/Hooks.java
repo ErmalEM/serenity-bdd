@@ -13,6 +13,6 @@ public class Hooks {
     @Before
     public void setup() {
         getWebdriverManager().getWebdriver().manage().window().maximize();
-        getWebdriverManager().getWebdriver().get("https://facebook.com");
+        getWebdriverManager().getWebdriver().get("https://twitter.com");
     }
 }
