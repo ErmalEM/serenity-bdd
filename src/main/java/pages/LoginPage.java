@@ -15,12 +15,18 @@ import net.serenitybdd.core.pages.WebElementFacade;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class LoginPage extends PageObject {
 
-    @FindBy(id = "email")
-    WebElementFacade emailInput;
+//    @FindBy(id = "email")
+//    WebElementFacade emailInput;
+//
+//    @FindBy(id = "pass")
+//    WebElementFacade passwordInput;
+//
+//    @FindBy(css = "[value=\"Log In\"]")
+//    WebElementFacade loginButton;
 
-    @FindBy(id = "pass")
-    WebElementFacade passwordInput;
+      @FindBy(css = "[href = \"/login\"")
+      WebElementFacade loginButton;
 
-    @FindBy(css = "[value=\"Log In\"]")
-    WebElementFacade loginButton;
+      @FindBy(id = "pass")
+      WebElementFacade passwordInput;
 }
