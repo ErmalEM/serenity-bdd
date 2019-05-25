@@ -13,6 +13,6 @@ public class Hooks {
     @Before
     public void setup() {
         getWebdriverManager().getWebdriver().manage().window().maximize();
-        getWebdriverManager().getWebdriver().get("https://twitter.com");
+        getWebdriverManager().getWebdriver().get("http://127.0.0.1:8000/");
     }
 }
