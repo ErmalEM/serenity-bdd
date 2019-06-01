@@ -13,7 +13,7 @@ import net.serenitybdd.core.pages.WebElementFacade;
 
 @Getter
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class LoginPage extends PageObject {
+public class LoginPage extends AbstractPage {
 
     @FindBy(id = "email")
     WebElementFacade emailInput;
