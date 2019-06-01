@@ -62,4 +62,8 @@ public class AbstractPage extends PageObject {
     public void jsClick(WebElementFacade webElementFacade){
         evaluateJavascript("arguments[0].click();",waitFor(webElementFacade));
     }
+
+    public void javaScriptClick(String locator){
+        evaluateJavascript("document.querySelector('[href=\"http://127.0.0.1:1234/login\"]').click();");
+    }
 }
