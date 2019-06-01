@@ -24,8 +24,8 @@ public class LoginStepDefinitions {
     @Given("^User is logged in$")
     public void userIsLoggedIn() {
         dashboardSteps.clickLoginButton();
-        loginSteps.enterEmail("kaltrina@fiek.com");
-        loginSteps.enterPassword("12kaltrina");
+        loginSteps.enterEmail("muhaxheri@ubt.com");
+        loginSteps.enterPassword("12345678");
         loginSteps.clickLoginButton();
     }
 

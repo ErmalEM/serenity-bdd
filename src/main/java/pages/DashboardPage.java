@@ -6,7 +6,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 
 @Getter
-public class DashboardPage extends PageObject {
+public class DashboardPage extends AbstractPage {
 
     @FindBy(css = "[href=\"http://127.0.0.1:8000/login\"]")
     WebElementFacade loginButton;
